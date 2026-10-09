@@ -1,0 +1,14 @@
+# Recordings are large and public; download them, don't commit them
+data/*
+!data/.gitkeep
+
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Firmware build output
+firmware/build/
